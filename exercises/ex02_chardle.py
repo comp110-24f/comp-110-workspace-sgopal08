@@ -18,7 +18,7 @@ def input_word() -> str:
 def input_letter() -> str:
     """User inputs a letter"""
     # Part 3
-    letter: str = input("Enter a single character:")
+    letter: str = input("Enter a single character: ")
 
     if len(letter) == 1:
         return letter
@@ -57,7 +57,7 @@ def contains_char(word: str, letter: str) -> None:
     if count == 0:
         print("No instances of " + letter + " found in " + word)
 
-    if count > 1:
+    if count >= 1:
         print(str(count) + " instances of " + (letter) + " found in " + word)
 
 
