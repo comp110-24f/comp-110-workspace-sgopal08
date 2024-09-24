@@ -4,14 +4,13 @@ __author__: str = "730662974"
 
 
 def input_word() -> str:
-    # Part 1
     """User inputs a word and function checks to see if it's valid."""
     word: str = input("Enter a 5-character word: ")
 
     if len(word) == 5:
         return word
     else:
-        print("Error: Word must contain 5 characters")
+        print("Error: Word must contain 5 characters.")
         exit()
 
 
