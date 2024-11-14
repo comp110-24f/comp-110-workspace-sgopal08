@@ -36,6 +36,7 @@ def contains_char(word: str, letter: str) -> None:
     if word[0] == letter:
         print(letter + " found at index 0")
         count += 1
+        count = count + 1
 
     if word[1] == letter:
         print(letter + " found at index 1")
